@@ -1,0 +1,49 @@
+.page {
+    inline-size: 1200px;
+    block-size: 100%;
+    margin: auto;
+    color: #fff;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 18px;
+    background-color: #1b1919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 711px 399px;
+    grid-template-rows: auto 1fr;
+    gap: 30px;
+    inline-size: 1140px;
+    align-items: end;
+}
+
+.result {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.content__details {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.result__video-container {
+    inline-size: 711px;
+    block-size: 386px;
+    margin-block-end: 16px;
+    position: relative;
+}
+
+.content__list-container {
+    block-size: 298px;
+    overflow-y: auto;
+    position: relative;
+}

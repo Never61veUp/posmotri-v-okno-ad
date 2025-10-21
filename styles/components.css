@@ -1,0 +1,115 @@
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.search-form__fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.search-form__label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.search-form__textfield {
+    appearance: none;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+    border: none;
+    border-block-start: 1px solid #fff;
+    border-block-end: 1px solid #fff;
+    inline-size: 225px;
+    block-size: 27px;
+    padding: 0;
+}
+
+.search-form__checkbox-list {
+    display: flex;
+    gap: 15px;
+}
+
+.search-form__pseudo-checkbox {
+    display: inline-block;
+    inline-size: 19px;
+    block-size: 19px;
+    border: 1px solid #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.search-form__pseudo-checkbox::after {
+    content: "";
+    position: absolute;
+    inset-inline-start: 50%;
+    inset-block-start: 50%;
+    transform: translate(-50%, -50%);
+    inline-size: 15px;
+    block-size: 15px;
+    background-color: #fff;
+    display: none;
+}
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+    display: block;
+}
+
+.content__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content__list-item {
+    padding-inline: 3px;
+}
+
+.content__video-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.content__video-card-thumbnail {
+    inline-size: 194px;
+    block-size: 103px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content__video-card-description-container {
+    flex-grow: 1;
+    inline-size: 100%;
+}
+
+.button {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.search-form__submit-button {
+    align-self: flex-end;
+    inline-size: 194px;
+    block-size: 34px;
+}
+
+.more-button {
+    inline-size: 100%;
+    block-size: 34px;
+}
