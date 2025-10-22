@@ -18,7 +18,7 @@ html {
     background-color: #1b1919;
 }
 
-/* Step 1: Layout - Adding flexbox and grid for page structure */
+/*Layout*/
 .page {
     display: flex;
     align-items: center;
@@ -88,7 +88,7 @@ ol {
     list-style: none;
 }
 
-/* Кастомный скроллбар */
+/*Scrollbar*/
 .custom-scrollbar::-webkit-scrollbar {
     width: 4px;
 }
@@ -101,7 +101,7 @@ ol {
     background-color: #d9d9d9;
 }
 
-/* Step 2: Sizing - Setting dimensions for video container and cards */
+/*Sizing for video container and cards */
 .result__video-container {
     inline-size: 711px;
     block-size: 386px;
@@ -144,7 +144,7 @@ ol {
     inline-size: 100%;
 }
 
-/* Step 3: Text styles - Typography and text overflow handling */
+/*Text styles*/
 .search-form__fieldset-title {
     font-family: "Fira Sans Condensed", sans-serif;
     font-size: 18px;
@@ -195,7 +195,7 @@ ol {
     overflow: hidden;
 }
 
-/* Step 4: Form styling - Custom checkboxes and text inputs */
+/*Custom checkboxes and text inputs */
 .visually-hidden {
     position: absolute;
     inline-size: 1px;
@@ -281,7 +281,7 @@ ol {
     text-decoration: underline;
 }
 
-/* Step 5: Button styles and states */
+/*Button styles and states */
 .button {
     font-family: "Fira Sans Condensed", sans-serif;
     font-size: 18px;
@@ -320,7 +320,7 @@ ol {
     block-size: 34px;
 }
 
-/* Step 6: Card states - Current, hover, and focus states */
+/*Card states*/
 .content__card-link_current {
     background-color: #545050;
 }
@@ -341,14 +341,14 @@ ol {
     outline: 1px solid #fff;
 }
 
-/* Step 7: Clickability - Cursor pointer for interactive elements */
+/*Clickability*/
 .content__card-link,
 .search-form__label,
 .button {
     cursor: pointer;
 }
 
-/* Step 8: Preloader positioning - Absolute positioning for loaders */
+/*Absolute positioning for loaders */
 .result__video-container,
 .content__list-container {
     position: relative;
