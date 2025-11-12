@@ -130,12 +130,16 @@ button {
     gap: 5px;
 }
 .content__video-card-title{
-    -webkit-line-clamp: 1;
-    overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    word-break: break-all;
     font-size: 30px;
     font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+
 
 }
 
@@ -152,10 +156,11 @@ button {
 }
 
 .content__video-card-description{
-    -webkit-line-clamp: 1;
-    overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    word-break: break-all;
     font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
     line-height: 1.1;
