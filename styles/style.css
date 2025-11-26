@@ -125,6 +125,12 @@ button {
     width: 711px;
     height: 386px;
 }
+.result__video:focus {
+    width: 711px;
+    height: 386px;
+    outline: none;
+}
+
 .content__video-card{
     display: flex;
     gap: 5px;
@@ -231,7 +237,6 @@ font-size: 18px;
 }
 
 .content__card-link:active {
-
     background-color: #545050;
 }
 
@@ -246,6 +251,20 @@ font-size: 18px;
 .search-form__label input:focus {
     background: transparent;
     border: none;
+}
+.content__card-link:focus-visible {
+    border: white solid 1px;
+    outline: none;
+}
+
+.button:focus-visible {
+    border: white solid 1px;
+    outline: none;
+}
+
+.search-form__label:focus-visible {
+    border: white solid 1px;
+    outline: none;
 }
 
 
@@ -280,7 +299,6 @@ font-size: 18px;
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
     border: none;
-
     background-color: white;
 }
 .search-form__pseudo-checkbox {
